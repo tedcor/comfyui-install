@@ -1,6 +1,9 @@
 # ComfyUI Ubuntu Install With RTX 5070Ti
 ## Install comfyui inside a unique folder with it's own python virtual environment.
 ### Ubuntu 24.04 With Python 3.12
+Instructions to install drivers for your Nvidia Blackwell GPU aka RTX 5090, 5080, 5070, etc can be found here.
+https://github.com/tedcor/ubuntu-rtx-5070ti/blob/main/README.md
+
 ```
 git clone https://github.com/comfyanonymous/ComfyUI [add a custom folder name here, without the brackets.]
 cd [custom folder name]
