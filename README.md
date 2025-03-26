@@ -1,6 +1,6 @@
-# comfyui-install
+# ComfyUI - How To Install ComfyUI To A Unique Folder With It's Own Python Virtual Environment
 
-Ubuntu instructions to install comfyui inside a python virtual environment with a custom named folder
+Ubuntu
 ```
 git clone https://github.com/comfyanonymous/ComfyUI [add a custom folder name here, without the brackets.]
 cd [custom folder name]
