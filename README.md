@@ -1,5 +1,5 @@
 # ComfyUI Ubuntu Install With RTX 5070Ti
-## Install inside a unique folder with it's own python virtual environment.
+## Install comfyui inside a unique folder with it's own python virtual environment.
 ### Ubuntu 24.04 With Python 3.12
 ```
 git clone https://github.com/comfyanonymous/ComfyUI [add a custom folder name here, without the brackets.]
