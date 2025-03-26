@@ -10,10 +10,10 @@ pip install --pre torch torchvision torchaudio --index-url https://download.pyto
 ```
 
 // if you get a "Torch not compiled with CUDA enabled" error, uninstall torch with:
-
-// pip uninstall torch
-
-// install torch again
+```
+pip uninstall torch
+```
+// now reinstall torch
 ```
 pip install -r requirements
 
