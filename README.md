@@ -1,3 +1,4 @@
+#
 ## ComfyUI install on Ubuntu 24.04, Python 3.12, and RTX 5070Ti
 ### Install comfyui inside a unique folder with it's own python virtual environment.
 Instructions to install drivers for your Nvidia Blackwell GPU aka RTX 5090, 5080, 5070, etc can be found here.
@@ -29,7 +30,7 @@ pip install -r requirements.txt
 
 python main.py
 ```
-Alternatively you follow up the previous command with --listen [this will make comfyui available on your hoem network]
+Alternatively you follow up the previous command with --listen [this will make comfyui available on your home network]
 
 or
 
@@ -39,3 +40,24 @@ To see a list of modifiers use the following command.
 ```
 python main.py --help
 ```
+#
+# Custom Nodes
+### Below is a list of links to ComfyUI custom nodes. They are easy to install and can save you time.
+#
+### ComfyUI-Manager
+
+##### Gives you the ablilty to quickly install missing models and nodes.
+##### Install to your comfyui/custom_nodes folder.
+```
+git clone https://github.com/ltdrdata/ComfyUI-Manager comfyui-manager
+```
+Restart ComfyUI
+#
+### ComfyUI LoRA Manager
+```
+git clone https://github.com/willmiao/ComfyUI-Lora-Manager.git
+cd ComfyUI-Lora-Manager
+pip install -r requirements.txt
+```
+#### You can launch lora-manager from the ComfyUI menu or by visiting http://localhost:8188/loras
+#
