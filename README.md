@@ -9,7 +9,7 @@ git clone https://github.com/comfyanonymous/ComfyUI [add a custom folder name he
 cd [custom folder name]
 python3 -m venv [custom venv name]
 source [custom venv name]/bin/activate
-pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+pipx install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
 ```
 
 If you get a "Torch not compiled with CUDA enabled" error, uninstall torch with:
