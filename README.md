@@ -41,6 +41,19 @@ To see a list of modifiers use the following command.
 python main.py --help
 ```
 #
+## Running Multiple ComfyUI Servers
+Running two instances of ComfyUI on the same local machine with different URLs is possible by configuring each instance to listen on different ports or IP addresses. To achieve this, you can modify the server configuration settings for each instance. For example, one instance can be set to listen on http://0.0.0.0:8188 while another can listen on http://0.0.0.0:8189 or any other available port.
+
+To run multiple instances of ComfyUI, you can also use different GPUs or set up multiple instances on the same GPU by specifying different CUDA devices.
+
+Start one instance with --port 8188 --cuda-device 0 and another with --port 8189 --cuda-device 1.
+
+Additionally, if you are running ComfyUI on a local network, access each instance using their respective IP addresses and ports.  
+For example, if your local IP address is 192.168.1.100, one instance can be accessed at http://192.168.1.100:8188 and the other at http://192.168.1.100:8189.
+
+Instance 1: Runs on port 8188 and listens on http://0.0.0.0:8188  
+Instance 2: Runs on port 8189 and listens on http://0.0.0.0:8189  
+#
 # Custom Nodes
 ### Below is a list of links to ComfyUI custom nodes. They are easy to install and can save you time.
 #
