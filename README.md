@@ -55,8 +55,8 @@ Restart ComfyUI
 #
 ### ComfyUI LoRA Manager
 ```
-git clone https://github.com/willmiao/ComfyUI-Lora-Manager.git
-cd ComfyUI-Lora-Manager
+git clone https://github.com/willmiao/ComfyUI-Lora-Manager.git comfyui-lora-manager
+cd comfyui-lora-manager
 pip install -r requirements.txt
 ```
 #### You can launch lora-manager from the ComfyUI menu or by visiting http://localhost:8188/loras
