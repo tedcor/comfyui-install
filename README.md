@@ -9,7 +9,15 @@ git clone https://github.com/comfyanonymous/ComfyUI [add a custom folder name he
 cd [custom folder name]
 python3 -m venv [custom venv name]
 source [custom venv name]/bin/activate
+```
+##### If you already have pytorch installed you may not have to re-install it and you can skip the pytorch install command below.
+##### However if you have any torch related errors, run the install command below followed by --force and it will overwrite current pytorch installation.
+```
 pipx install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128
+```
+To overwrite current pytorch installation
+```
+pipx install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128 --force
 ```
 
 If you get a "Torch not compiled with CUDA enabled" error, uninstall torch with:
