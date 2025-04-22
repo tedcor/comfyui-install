@@ -20,9 +20,9 @@ To overwrite current pytorch installation
 pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128 --force
 ```
 ### I got an error April 22, 2025 that the sha was not the same as expected and used the following command.
-'''
+```
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu128/
-'''
+```
 If you get a "Torch not compiled with CUDA enabled" error, uninstall torch with:
 ```
 pip uninstall torch
